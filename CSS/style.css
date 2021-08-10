@@ -28,7 +28,7 @@ body{
     padding: 20px 35px 35px 35px;
     background: transparent;
      border-radius: 40px; 
-    box-shadow: 5px 5px 5px lightskyblue, -5px -5px 5px lightskyblue;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
 }
 
 
@@ -54,20 +54,22 @@ h2{
 }
 input{
     display: block;
+    font-size: 17px;
     width: 100%;
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid whitesmoke;
+    background: transparent;
     border-radius: 20px;
+    color: white;
     outline: none;
 }
 
 ::placeholder{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     letter-spacing: 1px;
-    color: black;
+    color: white;
 }
 
 button{
@@ -96,7 +98,7 @@ button:hover{
 }
 
 .user-input, .user-password{
-    box-shadow: inset 10px 10px 10px lightslategrey ;
+    box-shadow: inset 8px 8px 8px lightslategrey ;
 }
 
 .links {

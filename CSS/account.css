@@ -23,13 +23,13 @@ body{
 
 .sign-up-form{
     margin-top: 0 auto;
-    height: 650px;
+    height: 620px;
     width: 340px;
     padding: 20px 35px 35px 35px;
     background: transparent;
      border-radius: 40px; 
     color: whitesmoke;
-    box-shadow: 5px 5px 5px lightskyblue, -5px -5px 5px lightskyblue;
+    box-shadow: 5px 5px 5px black, -5px -5px 5px black;
 }
 
 h1{
@@ -37,7 +37,7 @@ h1{
     font-family: 'Times New Roman', Times, serif;
     font-weight:1000;
     letter-spacing: 1px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 h1 span{
@@ -53,20 +53,23 @@ h2{
 input{
     align-items: center;
     justify-content: center;
-    padding: 12px;
+    padding: 10px;
+    font-size: 14px;
     margin-top: 14px;
     width: 100%;
+    color: white;
     border-radius: 20px;
     outline: none;
     display: block;
-    border: 1px solid whitesmoke;
+    background: transparent;
+    
 }
 
 ::placeholder{
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    color: black;
+    color:white;
     letter-spacing: 1px;
 }
 
@@ -97,7 +100,7 @@ button:hover{
 }
 
 .user-input{
-    box-shadow: inset 10px 10px 10px lightslategrey ;
+    box-shadow: inset 7px 7px 7px lightslategrey ;
 }
 
 
