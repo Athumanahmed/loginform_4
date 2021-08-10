@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Saira Condensed",sans-serif;
+    display: flex;
+    align-items: center;
+    color: #555;
+    justify-content: center;
+    font-weight: 700;
+    background: url(/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    
+}
+
+.login-div{
+    color: whitesmoke;
+    height: 600px;
+    width: 340px;
+    padding: 20px 35px 35px 35px;
+    background: transparent;
+     border-radius: 40px; 
+    box-shadow: 5px 5px 5px lightskyblue, -5px -5px 5px lightskyblue;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    letter-spacing: .5px;
+}
+
+h1 span{
+    color: blue;
+}
+
+h2{
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 30px;
+
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    outline: none;
+}
+
+::placeholder{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    line-height: 10px;
+    margin-left: 1px;
+    outline: none;
+    border: 1px solid whitesmoke;
+    background: wheat;
+    margin-bottom: 20px;
+    
+}
+
+button:hover{
+    background: blue;
+    color:whitesmoke;
+    cursor: pointer;
+    transition: 1.5s ;
+}
+
+.user-input, .user-password{
+    box-shadow: inset 10px 10px 10px lightslategrey ;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a{
+    
+    text-decoration: none;
+    color:green;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
